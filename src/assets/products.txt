@@ -1,0 +1,1 @@
+[{"id":1,"title":"gaseosa","price":25,"thumbnail":"http://www.gaseosa.com"},{"id":2,"title":"galletitas","price":35,"thumbnail":"http://www.galletitas.com"}]
