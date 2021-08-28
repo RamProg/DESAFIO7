@@ -28,7 +28,6 @@ app.get("/items", async (req, res) => {
   } catch (error) {
     res.json({ error: "There was an error" });
   }
-  console.log("conexion");
 });
 
 app.get("/item-random", async (req, res) => {
@@ -39,7 +38,6 @@ app.get("/item-random", async (req, res) => {
   } catch (error) {
     res.json({ error: "There was an error" });
   }
-  console.log("conexion");
 });
 
 app.get("/visits", (req, res) => {
