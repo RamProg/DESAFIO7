@@ -36,7 +36,6 @@ app.get("/items", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     catch (error) {
         res.json({ error: "There was an error" });
     }
-    console.log("conexion");
 }));
 app.get("/item-random", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     counter.visits.item++;
@@ -47,7 +46,6 @@ app.get("/item-random", (req, res) => __awaiter(void 0, void 0, void 0, function
     catch (error) {
         res.json({ error: "There was an error" });
     }
-    console.log("conexion");
 }));
 app.get("/visits", (req, res) => {
     res.json(counter);
